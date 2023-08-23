@@ -267,7 +267,7 @@ button {
 .button-change {
   display: none;
   margin-left: 15px;
-  background: url(public/icons/expand.png) no-repeat;
+  background: url(../public/icons/expand.png) no-repeat;
 }
 
 .button__text {

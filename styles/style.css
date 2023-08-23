@@ -184,17 +184,17 @@ h6 {
 
 @font-face {
   font-family: "TTLakes-Bold";
-  src: url(/fonts/TTLakes/TTLakes-Bold.ttf)
+  src: url(fonts/TTLakes/TTLakes-Bold.ttf)
 }
 
 @font-face {
   font-family: "TTLakes-Medium";
-  src: url(/fonts/TTLakes/TTLakes-Medium.ttf)
+  src: url(fonts/TTLakes/TTLakes-Medium.ttf)
 }
 
 @font-face {
   font-family: "TTLakes-Regular";
-  src: url(/fonts/TTLakes/TTLakes-Regular.ttf)
+  src: url(fonts/TTLakes/TTLakes-Regular.ttf)
 }
 
 
@@ -249,7 +249,7 @@ button {
   width: 40px;
   height: 40px;
   margin: auto;
-  background-image: url(/public/icons/go.png)
+  background-image: url(public/icons/go.png)
 }
 
 .swiper-slide-next {
@@ -270,7 +270,7 @@ button {
 .button-change {
   display: none;
   margin-left: 15px;
-  background: url(/public/icons/expand.png) no-repeat;
+  background: url(public/icons/expand.png) no-repeat;
 }
 
 .button__text {

@@ -323,10 +323,10 @@ button {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 850px) {
   .item-slider__wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 270px);
+    grid-template-columns: repeat(3, 270px);
     column-gap: 10px;
   }
   .item-slider__slide {
@@ -341,5 +341,11 @@ button {
   .item-slider__slide:nth-child(10),
   .item-slider__slide:nth-child(11) {
   display: grid;
+  }
+}
+
+@media (min-width: 1110px) {
+  .item-slider__wrapper {
+    grid-template-columns: repeat(4, 270px);
   }
 }

@@ -44,7 +44,7 @@ window.addEventListener('resize', () => {
 
 /* BUTTON */
 
-let buttonChange = document.querySelector('.button-change');
+let buttonChange = document.querySelector('.button');
 let items = document.querySelectorAll('.item');
 let buttonText = document.querySelector('.button__text');
 let showButton = true;

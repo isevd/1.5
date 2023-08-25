@@ -267,7 +267,7 @@ button {
   background: #47484b;
 }
 
-.button-change {
+.button {
   display: none;
   margin-left: 15px;
   background: url(../public/icons/expand.png) no-repeat;
@@ -308,7 +308,7 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 250px);
   }
-  .button-change {
+  .button {
   display: block;
   }
   .hidden {

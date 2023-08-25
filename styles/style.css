@@ -194,6 +194,9 @@ h6 {
   src: url(../fonts/TTLakes/TTLakes-Regular.ttf)
 }
 
+html {
+  overflow-x: hidden;
+}
 
 body {
   max-width: 1120px;

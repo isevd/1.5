@@ -90,19 +90,111 @@ h6 {
 
 /*--------------------*/
 
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
 @font-face {
   font-family: "TTLakes-Bold";
-  src: url(/fonts/TTLakes/TTLakes-Bold.ttf)
+  src: url(../fonts/TTLakes/TTLakes-Bold.ttf)
 }
 
 @font-face {
   font-family: "TTLakes-Medium";
-  src: url(/fonts/TTLakes/TTLakes-Medium.ttf)
+  src: url(../fonts/TTLakes/TTLakes-Medium.ttf)
 }
 
 @font-face {
   font-family: "TTLakes-Regular";
-  src: url(/fonts/TTLakes/TTLakes-Regular.ttf)
+  src: url(../fonts/TTLakes/TTLakes-Regular.ttf)
 }
 
 html {
@@ -160,7 +252,7 @@ button {
   width: 40px;
   height: 40px;
   margin: auto;
-  background-image: url(/public/icons/go.png)
+  background-image: url(../public/icons/go.png)
 }
 
 .swiper-slide-next {
@@ -181,7 +273,7 @@ button {
 .button {
   display: none;
   margin-left: 15px;
-  background: url(/public/icons/expand.png) no-repeat;
+  background: url(../public/icons/expand.png) no-repeat;
 }
 
 .button__text {
@@ -252,23 +344,5 @@ button {
   .item-slider__slide:nth-child(10),
   .item-slider__slide:nth-child(11) {
   display: grid;
-  }
-}
-
-@media (min-width: 1024px) {
-  .item-slider__wrapper {
-    grid-template-columns: repeat(4, 200px);
-    column-gap: 50px;
-  }
-
-  .item-slider__slide {
-   width: 239px;
-  }
-}
-
-@media (min-width: 1110px) {
-  .item-slider__wrapper {
-    grid-template-columns: repeat(4, 270px);
-    column-gap: 10px;
   }
 }
